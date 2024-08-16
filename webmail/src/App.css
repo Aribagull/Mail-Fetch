@@ -1,0 +1,73 @@
+.container{
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo{
+  text-align: center;
+}
+
+
+
+.row-data{
+  width: 1050px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: auto;
+  font-size: 12px;
+  border: 1px solid rgb(243, 236, 236);
+}
+
+.row-data h4{
+
+  width: 170px;
+  text-align: left;
+}
+
+.row-data p{
+  width: 750px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 45px;
+}
+
+.buttons-container button {
+  margin: 0 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f0eded;
+  border: none;
+}
+
+
+.buttons-container button.active {
+  background-color: aliceblue; 
+}
+
+
+.row-data :active {
+  background-color: brown; 
+}
+
+.row-data.active h4,
+.row-data.active p,
+.row-data.active div {
+font-weight: bold;
+ 
+}
+
+.row-data.active{
+  background-color: aliceblue;
+}
